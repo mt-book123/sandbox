@@ -332,7 +332,8 @@ a:active { color: #2812a5; }
 }
 #main #comments ul {
   height: 400px;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 #main #comments ul li {
   margin-bottom: 20px;
